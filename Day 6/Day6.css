@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(211, 145, 2);
+}
+h1{
+    text-align: center;color: rgb(251, 3, 3);
+    background-color: black;
+    font-size: 30px;
+    padding:1em;
+}
+h2{
+    color: rgb(169, 4, 206);
+    background-color: rgb(1, 70, 5)
+}
+#Service p{
+    font-size: 15px;
+}
+#Home p{
+    font-size: 20px;
+}
+#Aboutus p{
+    font-size: 20px;
+}
+ol button{
+    background-color: rgb(190, 2, 137);   
+}
+h3{
+    color: rgb(2, 117, 29);
+}
