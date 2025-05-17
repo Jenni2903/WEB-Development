@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat Lead Entry Form</title>
+    <link rel="stylesheet" href="Day7.css">
+</head>
+<body>
+    <h1>BOAT LEAD ENTRY FORM </h1>
+    <Form>
+        <div>
+            <h2>Contact Info</h2>
+            <label for="customertype">Customer Type:</label>
+            <select id="customertype" style="width: 250px;height:35px;">
+                <option value=""disabled selected hidden>Select Customer Type</option>
+                <option>Dealer</option>
+                <option>Individual</option>
+                <option>Wholesaler</option>
+                <option>Retail</option>
+                <option>Importer</option>
+            </select><br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="name" placeholder="Enter first name" style="width: 250px;height:30px;">
+            <input type="text" id="name" name="name" class="name" placeholder="Enter last name" style="width: 250px;height:30px;"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" style="width: 518px;height:30px;"><br><br>
+            <label for="number">Phone:</label>
+            <input type="tel" id="number" name="phone" placeholder="Enter phone number" style="width: 250px;height:30px;margin-right: 5px;">
+            <input type="tel" id="number" name="phone" placeholder="Enter alt phone number" style="width: 250px;height:30px;"><br><br>
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" placeholder="Enter company" style="width: 250px;height:30px;"><br><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter address" style="width: 504px;height:30px;"><br><br>
+            <input type="text" name="city" placeholder="Enter city and state" style="width: 277px;height:30px;">
+            <input type="text" name="pincode" placeholder="Enter pincode" style="width: 277px;height:30px;"><br><br>
+            <label for="notes" style="margin-right: 5px;">Personal Notes</label>
+            <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Add Personal Notes" style="width: 460px;height:60px;"></textarea>
+        </div>
+        <div>
+            <h2>Boat Info</h2>
+            <label for="make">Make:</label>
+            <select id="make" style="width: 250px;height:35px;">
+                <option value=""disabled selected hidden>Select Make</option>
+                <option>Yamaha</option>
+                <option>Bayliner</option>
+                <option>Sea Rey</option>
+            </select>
+                <br>
+                <br>
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="model" placeholder="Enter Model" style="width: 250px;height:30px;"><br><br>   
+            <label for="yearrange">Year Range:</label>
+            <input type="text" id="yearrange" placeholder="from" style="width: 100px;height:30px;">
+            <input type="text" id="yearrange" placeholder="to" style="width: 100px;height:30px;"><br><br>
+            <label>Boat Length:</label>
+            <input type="text" style="width: 100px;height:30px;"> to
+            <input type="text" style="width: 100px;height:30px;"><br><br>
+            <label for="price">Price Range:</label>
+            <input type="text" id="price" name="price" placeholder="$0.00" min="0" step="0.01" style="width: 100px;height:30px;"> to
+            <input type="text" id="price" name="price" placeholder="$0.00" min="0" step="0.01" style="width: 100px;height:30px;"><br><br>
+            <label style="margin-right: 5px;">Fuel Type:</label>
+            <input type="radio" id="diesel" name="fuel type" value="Diesel">
+            <label for="diesel">Diesel</label>
+            <input type="radio" id="gas/petrol" name="fuel type" value="Gas/Petrol">
+            <label for="gas/petrol">Gas/Petrol</label><br><br>
+            <label for="boattype">Boat Type:</label>
+            <select id="boattype" style="width: 250px;height:35px;">
+                <option value=""disabled selected hidden>Select Boat Type</option>
+                <option>Fishing Boat</option>
+                <option>Sail Boat</option>
+                <option>Speed Boat</option>
+            </select>
+                <br>
+                <br>
+            <label for="website">Website Link:</label>
+            <input type="text" id="website" name="website" placeholder="Enter Website Link" style="width: 485px;height:30px;"><br><br>
+            <label for="description" style="margin-right: 5px;">Description:</label>
+            <textarea id="description" name="description" rows="4" cols="40" placeholder="Add description" style="width: 490px;height:60px;"></textarea> <br><br> 
+            <label for="doc">Documents:</label>
+            <input type="file" id="doc" name="doc"><br><br>
+            <button>Create Lead</button>
+        </div>
+    </Form>
+</body>
+</html>
