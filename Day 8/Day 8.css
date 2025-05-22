@@ -1,0 +1,104 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:rgb(8, 8, 8);
+    margin:0;
+    padding:0;
+}
+header{
+    background: #222;
+    color:rgba(195, 204, 223, 0.763);
+    padding:1em 2em;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header h1{
+    margin: 0;
+}
+nav a{
+    color:tomato;
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+}
+main{
+    padding:20px;
+}
+section#offers{
+    background: rgb(1, 57, 64);
+    padding:20px;
+    margin:bottom;
+    border-radius: 8px;
+    color:wheat;
+}
+section#offers h3{
+    color: rgb(187, 247, 146);
+        
+}
+section{
+    padding:20px;
+    margin:bottom;
+    border-radius: 8px;
+}
+section#home{
+    background-color: rgb(40, 1, 1);
+    color: wheat;
+}
+.hom h2{
+    color: rgb(14, 85, 2);
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.best{
+    list-style-type: disc;
+    display: flex;
+    gap:20px;
+    padding-left: 5px;
+    margin:0;
+    color: white;
+}
+article{
+    border-bottom:blueviolet;
+    padding-bottom:15px;
+    margin-bottom: 25px;
+}
+.spec{
+    background-color: green;
+    color:wheat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.spec h2{
+    color:rgb(55, 2, 33);
+}
+.spec h3{
+    color:rgb(40, 8, 62);
+}
+aside{
+    background: rgb(142, 151, 8);
+    padding:15px;
+    border-left:5px solid rgb(142, 151, 8);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#tips h3{
+    color:rgb(94, 62, 14);
+}
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top: 30px;
+}
+section#Aboutus{
+    background-color: wheat;
+}
