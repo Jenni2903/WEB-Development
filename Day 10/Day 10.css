@@ -1,0 +1,61 @@
+body{
+    background-color:lightyellow;
+}
+header{
+    background-color:black;
+    padding:1em 2em;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+nav a{
+    color:tomato;
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+}
+span{
+    background-color: rgb(49, 1, 1);
+    color: wheat;
+}
+.aero{
+    background-color: rgb(37, 57, 57);
+    color: wheat;
+    padding: 28px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+}
+.rail{
+    background-color: rgb(48, 37, 57);
+    color: wheat;
+    padding: 28px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+}
+#ship{
+    background-color: rgb(65, 19, 40);
+    color: wheat;
+    padding: 28px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+}
+#car{
+    background-color: rgb(25, 81, 53);
+    color: wheat;
+    padding: 28px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+}
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top: 30px;
+}
+
+

@@ -1,0 +1,55 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color:blueviolet;
+}
+.climate{
+    background-color: white;
+    margin:20px auto;
+    padding: 20px;
+    border-left:5px solid rgb(31, 251, 97);
+    border-radius: 9px;
+    max-width: 700px;
+    max-height: 700px;
+}
+#bg-color{
+    background-color: rgb(1, 1, 50);
+    color:white;
+}
+
+#bg-image{
+    background-image: url(Path/rainy\ climate);
+    background-color: antiquewhite;
+    color: blanchedalmond;
+}
+
+#bg-repeat{
+    background-image: url(Path/rainy\ climate);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-color: rgb(10, 55, 9);
+    color: blanchedalmond;
+}
+
+#bg-size{
+    background-image: url(Path/rainy\ climate);
+    background-size: cover;
+    color: blanchedalmond;
+}
+
+#bg-position{
+    background-image: url(Path/rainy\ climate);
+    background-position: center;
+    color: blanchedalmond;
+}
+
+#bg-attachment{
+    background-image: url(Path/rainy\ climate);
+    background-size: cover;
+    background-attachment: fixed;
+    color: blanchedalmond;
+}

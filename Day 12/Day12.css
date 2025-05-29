@@ -1,0 +1,61 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(Path/winter\ climate);
+    padding:20px;
+}
+h1{
+    color:wheat;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.winter{
+    background-color: rgb(84, 83, 83);
+    margin:20px auto;
+    padding: 20px;
+    border-left:5px solid rgb(53, 4, 79);
+    border-radius: 9px;
+    max-width: 700px;
+    max-height: 700px;
+}
+#t-color{
+    color: rgb(59, 1, 1); 
+}
+
+#t-align{
+    text-align: center;
+}
+
+.lined{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(87, 2, 25);
+}
+
+.noline{
+    text-decoration:none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+#t-transform{
+    text-transform: uppercase;
+}
+
+.letter{
+    letter-spacing: 2px;
+}
+
+.word{
+    word-spacing: 5px;
+}
+
+#t-height{
+    line-height: 30px;
+}
+
+#t-ind{
+    text-indent: 40px;
+}
