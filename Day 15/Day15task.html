@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display,links,Font properties</title>
+    <link rel="stylesheet" href="Day15.css">
+</head>
+<body>
+    <style>
+        a:link{
+            color:rgb(2, 11, 47);
+            text-decoration:dashed;
+        }
+        a:visited{
+            color: brown;
+        }
+        a:hover{
+            color: gold;
+            text-decoration: underline;
+        }
+        a:active{
+            color: green;
+        }
+         h1{
+            background-color: black;
+            color: white;
+            padding:10px;
+            text-align: center;
+        }
+        /* .c-font h1{
+            background-color: black;
+            color: white;
+            padding:10px;
+            text-align: center; */
+        .c-font p{
+            background-color: rgb(61, 4, 80);
+            color: white;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: bold;
+            font-style:normal;
+            line-height: 2.0;
+        }
+    </style>
+ </head>
+ <body>
+    <section class="c-links">
+    <h1>CSS LINKS PROPERTIES</h1>
+    <a href="https://abc.xyz/" target="_blank">Visit Google Link</a>
+    </section>
+
+    <section class="c-font">
+        <h1>CSS FONT PROPERTIES</h1>
+        <p>A typeface (or font family) is a design of letters, numbers and other symbols, to be used in printing or for electronic display. Most typefaces include variations in size (e.g., 24 point), 
+            weight (e.g., light, bold), slope (e.g., italic), width (e.g., condensed), and so on.</p>
+    </section>
+
+    <section>
+        <h1>CSS DISPLAY PROPERTIES</h1>
+        <h2>1.Block</h2>
+        <div class="block">Block Elements</div>
+        <div class="block">Block Elements</div>
+        <p style="display:block;background-color: bisque;">The CSS display property specifies an element's display behaviour (the type of rendering box). 
+            It defines how an element is rendered in the layout, determining its positioning and interaction within the document's flow and structure.</p>
+        <div  style="display: block;background: lightseagreen;">It take this as Full width.</div>
+    </section>
+
+    <section>
+        <h2>2.Inline</h2>
+        <div class="inline">Inline Elements</div>
+        <div class="inline">Inline Elements</div>
+        <div class="inline">Inline Elements</div>
+        <div class="inline">Inline Elements</div>
+        <div class="inline">Inline Elements</div>
+        <div class="inline">Inline Elements</div> 
+        <div class="inline">Inline Elements</div>
+        <div class="inline">Inline Elements</div>
+        <span style="display: inline;color: brown;">Required Width</span>
+        <a herf="#" style="display: inline;">Links</a>
+        
+    </section>
+    <h2>3.Inline-Block</h2>
+    <section>
+        <div class="inline-block">Inline-Block</div>
+        <div class="inline-block"> Inline-Block</div>
+        <div style="display: inline-block; width: 150px;  background:plum;" >The CSS display property specifies an element's display behaviour (the type of rendering box). 
+            It defines how an element is rendered in the layout, determining its positioning and interaction within the document's flow and structure.</div>
+  
+    </section>
+    <section>
+        <h2>4.None (hidden)</h2>
+        <div class="none">This will be hidden.</div>
+    </section>
+
+    <section>
+        <h2>5.Flex</h2>
+        <div class="flex">
+        <div>Flex 1</div>
+        <div>Flex 2</div>
+        <div>Flex 3</div>
+        </div>
+    </section>
+    <scetion>
+        <h2>6.grid</h2>
+        <div class="grid">
+        <div>grid 1</div>
+        <div>grid 2</div>
+        <div>grid 3</div>
+        </div>
+    </scetion>
+    </section>
+</body>
+</html>
+</body>
+</html>

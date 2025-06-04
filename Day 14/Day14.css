@@ -1,0 +1,46 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(Path/universe);
+    padding: auto;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:blueviolet;
+}
+.box{
+    background-color:black;
+    color: rgb(39, 179, 255);
+    margin:20px auto;
+    padding: 5px;
+    border-left: 5px solid rgb(182, 4, 253);
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgb(113, 195, 250);
+    text-align: left;
+}
+h2{
+    color: rgb(220, 43, 226);
+}
+.b-content{
+    background-image: url(Path/sunrise);
+    background-size: cover;
+}
+.b-padding{
+    background-image: url(Path/Clouds);
+    background-size: cover;
+    padding:10px;
+}
+.b-border{
+    background-image: url(Path/sunset);
+    background-size: cover;
+    padding:15px;
+    border: 6px solid lightpink;
+}
+.b-margin{
+    background-image: url(Path/Moon);
+    background-size: cover;
+    padding: 20px;
+    border: 5px dotted lightskyblue;
+    margin:50px;
+}

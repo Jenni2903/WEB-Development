@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(202, 54, 235);
+    padding: auto;
+}
+section{
+    margin-bottom: 30px;
+}
+.block{
+    display: block;
+    padding: 8px;
+    margin: 8px 5px;
+    background-color: rgb(32, 32, 65);
+    color:white;
+}
+.inline{
+    display: inline;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(13, 47, 36);
+    color:white;
+}
+.inline-block{
+    display:inline-block;
+    padding: 10px;
+    margin:auto;
+    background-color: bisque;
+}
+.none{
+    display: none;
+}
+.flex{
+    display:flex;
+    gap:10px;
+}
+.flex div{
+    background-color: palevioletred;
+    padding: 10px;
+    flex:1;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    gap:10px;
+}
+.grid div{
+    background: peru;
+    padding: 10px;
+    grid:auto;
+    text-align: center;
+}
+
+
+
