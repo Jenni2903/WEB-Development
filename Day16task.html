@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS INDEX-Z</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url(Path/8aa6344df6418b17c24139d70daf4b8c.jpg) ;
+            background-position:center;
+        }
+
+        .sample {
+            padding: 20px;
+            background-color: #6e1173;
+            height: 300px;
+            background-size: cover;
+        }
+
+        .modelindex {
+            position: sticky;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(81, 90, 52, 0.7);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .modelindex-content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .modelindex.active {
+            display: flex;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="sample">
+            <h2>Main Page Content</h2>
+            <p>This will be our Main Page Content</p>
+            <button onclick="openModel()">POPUP Open</button>
+        </div>
+        <div class="modelindex" id="popupModel">
+            <div class="modelindex-content">
+                <h2>This will be Popup Model</h2>
+                <p>This shows Popup and uses <strong>Z-index</strong> to be present in frame.</p>
+                <button onclick="closeModel()">POPUP Close</button>
+            </div>
+        </div>
+        <script>
+            function openModel() {
+                document.getElementById('popupModel').classList.add('active');
+            }
+            function closeModel() {
+                document.getElementById('popupModel').classList.remove('active');
+            }
+        </script>
+    </body>
+
+</html>
