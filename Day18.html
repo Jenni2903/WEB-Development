@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>width vs max-width</title>
+    <style>
+        body {
+            font-family: Times, serif;
+            padding: 30px;
+            background: wheat;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 35px;
+            color:blueviolet
+        }
+
+        .width,.max-width {
+            margin: 20px auto;
+            padding: 20px;
+            color: white;
+            text-align: left;
+        }
+
+        .width {
+            width: 500px;
+            background: rgb(79, 9, 69);
+        }
+
+        .max-width {
+            max-width: 500px;
+            background: rgb(81, 23, 104);
+        }
+    </style>
+</head>
+
+<body>
+    <h2> CSS width vs max-width</h2>
+    <div class="width">Width is a fixed value that sets the width of an element to a specific size, regardless of the size of its parent container or the size of the content within it. 
+        For example, if you set the width of an element to 500px, it will always be 500px wide. Max-width, on the other hand, sets the maximum width of an element.</div>
+    <div class="max-width">Width is a fixed value that sets the width of an element to a specific size, regardless of the size of its parent container or the size of the content within it.
+        For example, if you set the width of an element to 500px, it will always be 500px wide. Max-width, on the other hand, sets the maximum width of an element.</div>
+</body>
+</html>
