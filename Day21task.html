@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Card View</title>
+    <style>
+        body{
+            font-family: Calibri, sans-serif;
+            padding: 20px;
+            background-color: azure;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+            gap:20px;
+            align-items: stretch;
+        }
+        .note{
+            border-radius: 8px;
+            box-shadow:0 2px 8px rgba(0, 0, 0, 0.1) ;
+            padding: 15px;
+            margin-bottom: auto;
+            background-color: lightblue;
+            padding-bottom: 10px;
+        }
+        h1{
+            color:goldenrod;
+            text-align: center;
+        }
+        .grid >article{
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1);
+        }
+        .grid >article img{
+            max-width: 100%;
+            height: 300;
+        }
+        .product >button{
+            background: green;
+            border: 0;
+            color:antiquewhite;
+            width: 100%;
+            padding: 15px;
+        }
+        .product{
+            padding:0 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="note">
+            <h1>FASHION PRODUCTS</h1>
+            <p>Fashion makeup, also known as editorial or high-fashion makeup, 
+            is a specialized type of makeup artistry used for fashion-related settings like runway shows, photo shoots, and magazine editorials. </p>
+        </div>
+    <main class="grid">
+        <article>
+            <img src="Path/Primer.jpg" alt="Primer product" width="400" height="400">
+           <div class="product">
+            <h3>PRIMER</h3>
+            <p>Primer is at an intersection between makeup and skincare; it combines the properties of both and is a perfect example of makeup and skincare going hand in hand.</p>
+           <button>Click Me</button>
+           </div>
+        </article>
+        <article>
+            <img src="Path/foundation.jpg" alt="Foundation product" width="400" height="400">
+           <div class="product">
+            <h3>FOUNDATION</h3>
+            <p>Foundation is a makeup product applied to the face to create an even, uniform complexion, providing a smooth base for other makeup products. </p>
+           <button>Click Me</button>
+        </div>
+        </article>
+        <article>
+            <img src="Path/Concealer" alt="Concealer product" width="400" height="400">
+           <div class="product">
+            <h3>CONCEALER</h3>
+            <p>Concealer is a makeup product used to cover imperfections and blemishes on the skin, often with a thicker and more opaque texture than foundation. It's designed to target specific areas like dark circles, acne scars, redness, and uneven skin tone.</p>
+            <button>Click Me</button>
+        </div>
+        </article>
+        <article>
+            <img src="Path/blush" alt="Blush product" width="400" height="400">
+           <div class="product">
+            <h3>BLUSH</h3>
+            <p>Blush adds a natural-looking flush to the cheeks, enhancing facial features and making the complexion appear more vibrant and healthy. It can also be used to contour the face, create a subtle sculpted look, and add a pop of color to the cheeks.</p>
+            <button>Click Me</button>
+          </div>
+        </article>
+        <article>
+            <img src="Path/Mascara.jpg" alt="Mascara product" width="400" height="400">
+           <div class="product">
+            <h3>MASCARA</h3>
+            <p>Mascara is a cosmetic used primarily to enhance eyelashes, making them appear longer, fuller, and more defined. It can also be used to add color to eyelashes. </p>
+           <button>Click Me</button>
+        </div>
+        </article>
+        <article>
+            <img src="Path/Eyeshadow.jpg" alt="Eyeshadow product" width="400" height="400">
+           <div class="product">
+            <h3>EYE SHADOW</h3>
+            <p>Eye shadow (or eyeshadow) is a cosmetic applied primarily to the eyelids to attract attention to the wearer's eyes, making them stand out or look more attractive. Eye shadow can also be applied under the eyes, on the cheeks, or to brow bones.</p>
+           <button>Click Me</button>
+        </div>
+        </article>
+        <article>
+            <img src="Path/24894_S1-8901030979552_1000x.webp" alt="EyeLiner product" width="400" height="400">
+           <div class="product">
+            <h3>EYE LINER</h3>
+            <p>yeliner is a cosmetic used to enhance the appearance of the eyes by defining the lash lines and creating the illusion of larger or more defined eyes.</p>
+           <button>Click Me</button>
+        </div>
+        </article>
+        <article>
+            <img src="Path/lipstick.webp" alt="Lipstick product" width="400" height="400">
+           <div class="product">
+            <h3>LIPSTICK</h3>
+            <p>Lipstick is a cosmetic product used to apply coloration and texture to lips, often made of wax and oil. 
+                Different pigments are used to produce color, and minerals such as silica may be used to provide texture.</p>
+          <button>Click Me</button>
+            </div>
+        </article>
+        <article>
+            <img src="Path/lipliner.jpg" alt="Lipliner product" width="400" height="400">
+           <div class="product">
+            <h3>LIP LINER</h3>
+            <p>Lip liner is to define your lip shape, it can also make lips look fuller by drawing outside your natural lip lines.
+                 It can even extend your lipstick wear by acting as a base and preventing bleeding and smudging onto skin.</p>
+           <button>Click Me</button>
+          </div>
+        </article>
+        <article>
+            <img src="Path/lipgloss" alt="Lipgloss product"width="400" height="400">
+           <div class="product">
+            <h3>LIP GLOSS</h3>
+            <p>Lip gloss is a cosmetic product primarily used to add shine, gloss, and often a hint of color to the lips.
+                 It can be used alone for a natural, subtle look or layered over lipstick for a more vibrant, glossy finish.</p>
+           <button>Click Me</button>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

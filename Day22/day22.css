@@ -1,0 +1,107 @@
+body{
+    background-color: bisque;
+    padding-top:30px;
+    font-family: Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h2{
+    margin-bottom: 30px;
+    color: #333;
+}
+.box{
+    width: 300px;
+    background-color: green;
+    height: 150px;
+    color: white;
+    line-height: 100px;
+    margin:0 200px;
+    border-radius: 8px;
+    font:1.2em;
+    animation:bounce 3s ease-in-out infinite;
+}
+@keyframes bounce {
+    0%,100%{
+        transform: translateY(0);
+        background-color: green;
+    }
+    50%{
+        transform: translateY(-50%);
+        background-color: blue;
+    }
+}
+.glow{
+    width: 300px;
+    background-color: rgb(0, 7, 0);
+    height: 150px;
+    color: white;
+    line-height: 100px;
+    margin:0 200px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 2px solid red;
+    cursor: pointer;
+    font:1.2em;
+    animation:glow 2s ease-in-out infinite alternate;  
+    transition: transform 0.2s ease;
+}
+.glow:hover{
+    transform:scale(1.1);
+}
+@keyframes glow{
+    from{
+        box-shadow:0 0 10px red,0 0 20px red;
+        border: red;
+    }
+    to{
+        box-shadow:0 0 10px red,0 0 20px red;
+        border: red;  
+    }
+}
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(27, 40, 161);
+    animation-name: movinganime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes movinganime {
+    from{
+        transform: none;
+    }
+    to{
+        transform: translateX(250%);
+    }
+}
+.anime{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 141, 85);
+    position: relative;
+    animation-name: positionanime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes positionanime {
+    0%{
+        background-color: blue;
+        left:0px; top:0px;
+    }
+    25%{
+        background-color: red;
+        left:200px; top:0px;
+    }
+    50%{
+        background-color: green;
+        left:200px; top:200px;
+    }
+    70%{
+        background-color: black;
+        left:0px; top:200px;
+    }
+    100%{
+        background-color: blue;
+        left:0px; top:0px;
+    }
+    
+}
